@@ -22,8 +22,8 @@ public class EmployeeApplication {
 
 	@Bean
 	public Docket getDocket() {
-		ApiInfo apiInfo = new ApiInfo("Swagger demo", "Swagger and Validation", "1.0", "http://www.jspiders.com",
-				new Contact("Vikram Pal", "http://www.Jspiders.com", "vikrampal21@gmail.com"), "TY-2023",
+		ApiInfo apiInfo = new ApiInfo("Employee", "Swagger and Validation", "1.0", "http://www.jspiders.com",
+				new Contact("Binu", "http://www.Jspiders.com", "binugodwin098@gmail.com"), "TY-2023",
 				"http://www.Jspiders.com", new ArrayList<>());
 
 		return new Docket(DocumentationType.SWAGGER_2).select()
